@@ -1355,7 +1355,7 @@
                 <!-- Modal header start -->
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-circle"></i></button>
-                    <h4 class="modal-title" id="inquiryModalLabel"><i class="icon-calendar"></i> Check Availability</h4>
+                    <h4 class="modal-title" id="inquiryModalLabel"><i class="icon-calendar"></i> Reservas</h4>
                 </div>
                 <!-- Modal header end -->
 
@@ -1368,87 +1368,25 @@
                         <div class="room-select">
                             <div class="input-group">
                                 <select name="inquiry-object" id="inquiry-object" class="form-control">
-                                    <option value="">Select a House or Room!</option>
-                                    <option value="Single Room">Single Room</option>
-                                    <option value="The Cottage">The Cottage</option>
-                                    <option value="Guest House">Guest House</option>
-                                    <option value="The Sea Villa">The Sea Villa</option>
+                                    <option value="">Seleccione una habitación</option>
+                                    <option value="Single Room">Habitación simple</option>
+                                    <option value="The Cottage">Habitación doble</option>
+                                    <option value="Guest House">Habitación matrimonial</option>
+                                    <option value="The Sea Villa">Suite</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="inquiry-check-in">
                             <div class="date-select">
-                                <label for="inquiry-date-check-in">CHECK-IN - When will you come?</label>
+                                <label for="inquiry-date-check-in">CHECK-IN</label>
 
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="icon-calendar"></i></span>
                                     <input type="text" class="form-control datepicker" name="inquiry-date-check-in" id="inquiry-date-check-in" placeholder="Date: mm/dd/yyyy">
                                 </div>
                             </div>
-
-                            <div class="time-select">
-                                <label for="inquiry-time-check-in">Time</label>
-
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="icon-clock"></i></span>
-                                    <select name="inquiry-time-check-in" class="form-control" id="inquiry-time-check-in">
-                                        <option value="">Please select your Time</option>
-                                        <option value="12:00 AM">12:00 AM</option>
-                                        <option value="12:30 AM">12:30 AM</option>
-                                        <option value="01:00 AM">01:00 AM</option>
-                                        <option value="01:30 AM">01:30 AM</option>
-                                        <option value="02:00 AM">02:00 AM</option>
-                                        <option value="02:30 AM">02:30 AM</option>
-                                        <option value="03:00 AM">03:00 AM</option>
-                                        <option value="03:30 AM">03:30 AM</option>
-                                        <option value="04:00 AM">04:00 AM</option>
-                                        <option value="04:30 AM">04:30 AM</option>
-                                        <option value="05:00 AM">05:00 AM</option>
-                                        <option value="05:30 AM">05:30 AM</option>
-                                        <option value="06:00 AM">06:00 AM</option>
-                                        <option value="06:30 AM">06:30 AM</option>
-                                        <option value="07:00 AM">07:00 AM</option>
-                                        <option value="07:30 AM">07:30 AM</option>
-                                        <option value="08:00 AM">08:00 AM</option>
-                                        <option value="08:30 AM">08:30 AM</option>
-                                        <option value="09:00 AM">09:00 AM</option>
-                                        <option value="09:30 AM">09:30 AM</option>
-                                        <option value="10:00 AM">10:00 AM</option>
-                                        <option value="10:30 AM">10:30 AM</option>
-                                        <option value="11:00 AM">11:00 AM</option>
-                                        <option value="11:30 AM">11:30 AM</option>
-                                        <option value="12:00 PM">12:00 PM</option>
-                                        <option value="12:30 PM">12:30 PM</option>
-                                        <option value="01:00 PM">01:00 PM</option>
-                                        <option value="01:30 PM">01:30 PM</option>
-                                        <option value="02:00 PM">02:00 PM</option>
-                                        <option value="02:30 PM">02:30 PM</option>
-                                        <option value="03:00 PM">03:00 PM</option>
-                                        <option value="03:30 PM">03:30 PM</option>
-                                        <option value="04:00 PM">04:00 PM</option>
-                                        <option value="04:30 PM">04:30 PM</option>
-                                        <option value="05:00 PM">05:00 PM</option>
-                                        <option value="05:30 PM">05:30 PM</option>
-                                        <option value="06:00 PM">06:00 PM</option>
-                                        <option value="06:30 PM">06:30 PM</option>
-                                        <option value="07:00 PM">07:00 PM</option>
-                                        <option value="07:30 PM">07:30 PM</option>
-                                        <option value="08:00 PM">08:00 PM</option>
-                                        <option value="08:30 PM">08:30 PM</option>
-                                        <option value="09:00 PM">09:00 PM</option>
-                                        <option value="09:30 PM">09:30 PM</option>
-                                        <option value="10:00 PM">10:00 PM</option>
-                                        <option value="10:30 PM">10:30 PM</option>
-                                        <option value="11:00 PM">11:00 PM</option>
-                                        <option value="11:30 PM">11:30 PM</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-
-
                         <div class="inquiry-check-out">
                             <div class="date-select">
                                 <label for="inquiry-date-check-out">CHECK-OUT - When will you go?</label>
@@ -1458,96 +1396,38 @@
                                     <input type="text" class="form-control datepicker" name="inquiry-date-check-out" placeholder="Date: mm/dd/yyyy" id="inquiry-date-check-out">
                                 </div>
                             </div>
-                            <div class="time-select">
-                                <label for="inquiry-time-check-out">Time</label>
-
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="icon-clock"></i></span>
-                                    <select name="inquiry-time-check-out" class="form-control" id="inquiry-time-check-out">
-                                        <option value="">Please select your Time</option>
-                                        <option value="12:00 AM">12:00 AM</option>
-                                        <option value="12:30 AM">12:30 AM</option>
-                                        <option value="01:00 AM">01:00 AM</option>
-                                        <option value="01:30 AM">01:30 AM</option>
-                                        <option value="02:00 AM">02:00 AM</option>
-                                        <option value="02:30 AM">02:30 AM</option>
-                                        <option value="03:00 AM">03:00 AM</option>
-                                        <option value="03:30 AM">03:30 AM</option>
-                                        <option value="04:00 AM">04:00 AM</option>
-                                        <option value="04:30 AM">04:30 AM</option>
-                                        <option value="05:00 AM">05:00 AM</option>
-                                        <option value="05:30 AM">05:30 AM</option>
-                                        <option value="06:00 AM">06:00 AM</option>
-                                        <option value="06:30 AM">06:30 AM</option>
-                                        <option value="07:00 AM">07:00 AM</option>
-                                        <option value="07:30 AM">07:30 AM</option>
-                                        <option value="08:00 AM">08:00 AM</option>
-                                        <option value="08:30 AM">08:30 AM</option>
-                                        <option value="09:00 AM">09:00 AM</option>
-                                        <option value="09:30 AM">09:30 AM</option>
-                                        <option value="10:00 AM">10:00 AM</option>
-                                        <option value="10:30 AM">10:30 AM</option>
-                                        <option value="11:00 AM">11:00 AM</option>
-                                        <option value="11:30 AM">11:30 AM</option>
-                                        <option value="12:00 PM">12:00 PM</option>
-                                        <option value="12:30 PM">12:30 PM</option>
-                                        <option value="01:00 PM">01:00 PM</option>
-                                        <option value="01:30 PM">01:30 PM</option>
-                                        <option value="02:00 PM">02:00 PM</option>
-                                        <option value="02:30 PM">02:30 PM</option>
-                                        <option value="03:00 PM">03:00 PM</option>
-                                        <option value="03:30 PM">03:30 PM</option>
-                                        <option value="04:00 PM">04:00 PM</option>
-                                        <option value="04:30 PM">04:30 PM</option>
-                                        <option value="05:00 PM">05:00 PM</option>
-                                        <option value="05:30 PM">05:30 PM</option>
-                                        <option value="06:00 PM">06:00 PM</option>
-                                        <option value="06:30 PM">06:30 PM</option>
-                                        <option value="07:00 PM">07:00 PM</option>
-                                        <option value="07:30 PM">07:30 PM</option>
-                                        <option value="08:00 PM">08:00 PM</option>
-                                        <option value="08:30 PM">08:30 PM</option>
-                                        <option value="09:00 PM">09:00 PM</option>
-                                        <option value="09:30 PM">09:30 PM</option>
-                                        <option value="10:00 PM">10:00 PM</option>
-                                        <option value="10:30 PM">10:30 PM</option>
-                                        <option value="11:00 PM">11:00 PM</option>
-                                        <option value="11:30 PM">11:30 PM</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
+
 
                         <div class="inquiry-people">
                             <div class="people-select">
-                                <label for="inquiry-children">CHILDREN - With children?</label>
+                                <label for="inquiry-children">NIÑOS</label>
 
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="icon-user-follow"></i></span>
                                     <select name="inquiry-children" class="form-control" id="inquiry-children">
-                                        <option value="Without children">Without children’s</option>
-                                        <option value="1 - Child">1 - Child</option>
-                                        <option value="2 - Children">2 - Children</option>
-                                        <option value="3 - Children">3 - Children</option>
-                                        <option value="4 - Children">4 - Children</option>
-                                        <option value="5 - Children">5 - Children</option>
+                                        <option value="Without children">Sin niños</option>
+                                        <option value="1 - Child">1 - Niño</option>
+                                        <option value="2 - Children">2 - Niños</option>
+                                        <option value="3 - Children">3 - Niños</option>
+                                        <option value="4 - Children">4 - Niños</option>
+                                        <option value="5 - Children">5 - Niños</option>
                                     </select>
                                 </div>
                             </div>
 
                             <div class="people-select" style="padding-right: 7px;">
-                                <label for="inquiry-adults">ADULTS - How many guests?</label>
+                                <label for="inquiry-adults">ADULTOS</label>
 
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="icon-user-follow"></i></span>
                                     <select name="inquiry-adults" class="form-control" id="inquiry-adults">
-                                        <option value="1 - Adult">1 - Adult</option>
-                                        <option value="2 - Adult">2 - Adult</option>
-                                        <option value="3 - Adult">3 - Adult</option>
-                                        <option value="4 - Adult">4 - Adult</option>
-                                        <option value="5 - Adult">5 - Adult</option>
-                                        <option value="6 - Adult">6 - Adult</option>
+                                        <option value="1 - Adult">1 - Adulto</option>
+                                        <option value="2 - Adult">2 - Adultos</option>
+                                        <option value="3 - Adult">3 - Adultos</option>
+                                        <option value="4 - Adult">4 - Adultos</option>
+                                        <option value="5 - Adult">5 - Adultos</option>
+                                        <option value="6 - Adult">6 - Adultos</option>
                                     </select>
                                 </div>
                             </div>
@@ -1560,15 +1440,29 @@
 
                     <!-- Appointment Personal Information start -->
                     <div class="personal-information">
-                        <h2>Personal Information</h2>
+                        <h2>Información Personal</h2>
 
                         <div class="form-group first-name-group">
-                            <label for="first-name">First Name</label>
+                            <label for="first-name">Nombre(s)</label>
                             <input type="text" name="first-name" class="form-control" id="first-name" placeholder="Enter your first name">
                         </div>
                         <div class="form-group last-name-group">
-                            <label for="last-name">Last Name</label>
+                            <label for="last-name">Apellido(s)</label>
                             <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Enter your last name">
+                        </div>
+                        <div class="people-select" style="padding-right: 12px;">
+                            <label for="inquiry-adults">NACIONALIDAD</label>
+
+                            <div class="input-group">
+                                <select name="inquiry-adults" class="form-control" id="inquiry-adults">
+                                    <option value="1 - Adult">1 - Adulto</option>
+                                    <option value="2 - Adult">2 - Adultos</option>
+                                    <option value="3 - Adult">3 - Adultos</option>
+                                    <option value="4 - Adult">4 - Adultos</option>
+                                    <option value="5 - Adult">5 - Adultos</option>
+                                    <option value="6 - Adult">6 - Adultos</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="form-group address-group">
